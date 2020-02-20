@@ -98,7 +98,7 @@ a:hover {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; 
 }
 
 .image {
@@ -155,26 +155,27 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     border-bottom: 4px solid rgb(140, 143, 156);
-    margin: 0 auto;
+    margin: 0 auto;   
 }
 
 
 .product-title {
     width: 45%;
+    border-bottom: 1px solid rgb(140, 143, 156);
 }
 
 .price {
     width: 15%;
-    
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgb(140, 143, 156);
 }
 
 .quantity {
     width: 30%;
-    
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgb(140, 143, 156);
 }
 
 .total {
@@ -182,6 +183,7 @@ a:hover {
     
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgb(140, 143, 156);
 }
 
 .product {
@@ -189,16 +191,19 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 10px;
+    border-bottom: 1px solid rgb(140, 143, 156);
+    padding: 10px 10px;  
     
 }
 
+.total {
+    
+}
 
 .products {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-
+    flex-wrap: wrap; 
 }
 /* 
 .products img {
@@ -218,4 +223,5 @@ a:hover {
 
 .basketTotal {
     width: 10%;
+    color: crimson;
 }

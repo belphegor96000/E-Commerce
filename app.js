@@ -144,7 +144,7 @@ function setItems(product) {
             productContainer.innerHTML += `
             <div class="basketTotalContainer">
                 <h4 class="basketTotalTitle">
-                     Basket Total
+                     Cart Total
                 </h4>
                 <h4 class="basketTotal">
                     $${cartCost},00
